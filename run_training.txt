@@ -1,0 +1,7 @@
+python3  train.py --dataset-type folder \
+--arch resnet18 --resolution 96x48 \
+--workers 4 --epochs 300 --batch-size 4096 \
+--learning-rate 0.0001 data/classify
+
+
+
